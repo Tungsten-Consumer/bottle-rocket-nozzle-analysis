@@ -1,0 +1,7 @@
+day 1
+
+learnt the basics of GitHub. i must later fill in formal descriptions of all the files within the README.md: make them short and concise, as i will make them more substantial when necessary. 
+
+i must start learning how to use openFOAM, pick a cad software (like fusion or onshape or blender), and an analysis software (probably open source like wolfram, or something like MATLAB that is paid), and continue learning math and physics, as i need pdes to understand openFOAM, and i need knowledge and intuition of fluid dynamics to explain what is going on. i must also balance schoolwork and extracurriculars like sat and ap, while maintaining regular commitments to this. 
+
+i also need to write down everything from math and physics that is relevant to this, like the simplified navier stokes, drag (pde), mass flow rate, vector calc operations (div, curl, laplacian), theorems (greens stokes gauss), fourier, taylor, regular calc, multivariable calc, odes (separable, eulers, laplace transforms) etc. etc.
