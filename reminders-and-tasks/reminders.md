@@ -38,3 +38,11 @@ i will need to learn more about the formulas required to undertake this project,
 
 ALWAYS USE MD FILES FOR ACTAL PARAGRAPHS AND STUFF FROM NOW ON
 
+
+
+matlab may be out of my budget range.
+
+
+
+scilab, Julia, python, gnuoctave may be alternatives
+
