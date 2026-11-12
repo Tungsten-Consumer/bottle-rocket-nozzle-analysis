@@ -6,3 +6,9 @@ I see that you have clicked onto the project lore. Wise choice. This serves as a
 
 day one, brick by brick.
 
+
+
+2026-11-11 (Day 2)
+
+i got a lil bit done i guess. nothing really of note happened today.
+
