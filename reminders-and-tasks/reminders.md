@@ -34,3 +34,7 @@ i also heard from my science teacher that navier stokes are an utter pain in the
 
 i will need to learn more about the formulas required to undertake this project, and list them within the reference sheet before i create my hypothesis. i should also create test cfd files and test openfoam simulations to figure out how the tool works. i will also have to see if i can procure a student licence for matlab if such a liscence exists, preferably if it was free.
 
+
+
+ALWAYS USE MD FILES FOR ACTAL PARAGRAPHS AND STUFF FROM NOW ON
+

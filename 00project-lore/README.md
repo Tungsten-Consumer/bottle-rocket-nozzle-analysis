@@ -2,13 +2,15 @@ I see that you have clicked onto the project lore. Wise choice. This serves as a
 
 
 
-2026-11-10 (Day 1)
+**2026-11-10 (Day 1)**
 
 day one, brick by brick.
 
 
 
-2026-11-11 (Day 2)
+**2026-11-11 (Day 2)**
 
 i got a lil bit done i guess. nothing really of note happened today.
+
+other than realizing the superiority of .md files over .txt files for formatting withing GitHub, dayum it looks so much better, it isn't a pain to scroll to the side anymore
 
