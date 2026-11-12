@@ -13,3 +13,5 @@ i now know how openfoam works i think. i think what it does is it takes your cad
 I also need to use simplefoam or whatever its called because i need incompressible flow that is also turbulent
 
 i also heard from my science teacher that navier stokes are an utter pain in the rear to solve by hand, so i aint doing that, hence openfoam and using the incompressible simplified version (because water and compressed air is practically incompressible flow)
+
+i will need to learn more about the formulas required to undertake this project, and list them within the reference sheet before i create my hypothesis. i should also create test cfd files and test openfoam simulations to figure out how the tool works. i will also have to see if i can procure a student licence for matlab if such a liscence exists, preferably if it was free.
