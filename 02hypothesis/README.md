@@ -1,0 +1,2 @@
+This folder will contain two hypotheses: one will be a hypothesis based purely off of my current intuition on the effects of the geometry of a nozzle on the height and trajectory of the bottle rocket, with no prior experiments or simulations occuring; and the other will be based off of what I learned from the OpenFOAM simulations as well as the analysis of the simulations, with no experimentation occurring yet. I will then take both hypotheses to empirical results, and contrast and compare them/
+
