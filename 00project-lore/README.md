@@ -14,3 +14,9 @@ i got a lil bit done i guess. nothing really of note happened today.
 
 other than realizing the superiority of .md files over .txt files for formatting withing GitHub, dayum it looks so much better, it isn't a pain to scroll to the side anymore
 
+
+
+2026-11-13 (Day 3)
+
+attempting openfoam tests on a sphere, then deriving the drag coefficient, then comparing it to someone else's result... sounds like an incredible plan
+
