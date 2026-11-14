@@ -70,7 +70,7 @@ i have written down what i think i need to know to generate more meshes for futu
 
 
 
-debugging the blockMeshDict and the snappyHexMeshDict was a bit of a pain, but that is to be expected. ill also have to read more of the openfoam v13 user manual to find the stuff that is needed to be modified for these files. i will also have to learn more equations, like the viscosity equations, what the Reynolds number is used for, and the variables in the drag equation, so i can later sub in them onve i obtain the drag force for my sphere. 
+debugging the blockMeshDict and the snappyHexMeshDict was a bit of a pain, but that is to be expected. ill also have to read more of the openfoam v13 user manual to find the stuff that is needed to be modified for these files. i will also have to learn more equations, like the viscosity equations, what the Reynolds number is used for, and the variables in the drag equation, so i can later sub in them onve i obtain the drag force for my sphere.
 
 
 
@@ -78,5 +78,5 @@ doing this also gives me a reusable framework for the actual bottle rocket, and 
 
 
 
-
+oh yeah and use 'cd \~/openfoam-cases/sphere/sphere-sim' on ubuntu to get right back to the proper directory
 
