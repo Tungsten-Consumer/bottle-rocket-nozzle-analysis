@@ -1,0 +1,80 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    object      blockMeshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// making a box 50cm x 50cm x 50cm
+
+convertToMeters 0.1; //1 unit = 1dm = 10cm = 100mm
+projArea 0.000314159; // my sphere has r=1cm, Aref = pi*r^2 = 3.14159 * (0.01)^2 = 0.000314159 m^2
+diameter 0.02; //r=1cm, d=2cm = 0.02m
+
+vertices
+(
+	(-2.5 -2.5 -2.5) //0
+	(2.5 -2.5 -2.5) //1
+	(2.5 2.5 -2.5) //2
+	(-2.5 2.5 -2.5) //3
+	(-2.5 -2.5 2.5) //4
+	(2.5 -2.5 2.5) //5
+	(2.5 2.5 2.5) //6
+	(-2.5 2.5 2.5) //7
+);
+
+
+blocks
+(
+	hex (0 1 2 3 4 5 6 7)
+	(100 100 100) //cells
+	simpleGrading (1 1 1) //no scaling
+);
+
+
+boundary
+(
+    inlet
+    {
+        type patch;
+        faces
+        (
+            (0 3 7 4) // so i dont jump from 3 to 4, cause if i do i might cause weird stuff because theres no edge
+        );
+    }
+
+    outlet
+    {
+        type patch;
+        faces
+        (
+            (1 2 6 5) // same here
+        );
+    }
+
+    walls
+    {
+        type wall;
+        faces
+        (
+            (0 1 2 3)
+            (3 2 6 7)
+            (4 5 6 7)
+            (0 1 5 4)
+        );
+    }
+);
+
+mergePatchPairs
+(
+);
+
+// ************************************************************************* //
