@@ -66,3 +66,17 @@ attempting openfoam tests on a sphere, then deriving the drag coefficient, then 
 
 
 
+i have written down what i think i need to know to generate more meshes for future attempts, as ill need many meshes for nozzle simulations. i also now know that blockMesh needs to be created using coding, as it is simple to define a cube, and the boundaries (because boundaries do not need to be complex). snappyHexMesh needs an .obj file, and takes a few minutes to generate a polyMesh file. i now need to change the actual setup conditions with the files physicalProperties, momentumTransport, 0/U, 0/p, system/controlDict, system/fvSchemes, system/fvSolution, system/forceCoeffsIncompressible; and then i need to format the other 0 files for turbulence, like 0/k, 0/omega, 0/epsilon, and 0/nut.
+
+
+
+debugging the blockMeshDict and the snappyHexMeshDict was a bit of a pain, but that is to be expected. ill also have to read more of the openfoam v13 user manual to find the stuff that is needed to be modified for these files. i will also have to learn more equations, like the viscosity equations, what the Reynolds number is used for, and the variables in the drag equation, so i can later sub in them onve i obtain the drag force for my sphere. 
+
+
+
+doing this also gives me a reusable framework for the actual bottle rocket, and it's drag, plus it will later give me some initial conditions to actually run some more simulations on nozzles and bottle rockets with potentially oblique directions, and it will give me understanding of the OpenFOAM machinery, allowing my to simulate actual thrust of the bottle rocket, and using both the thrust and the drag forces to plot a trajectory on jupyterlab and python.
+
+
+
+
+
