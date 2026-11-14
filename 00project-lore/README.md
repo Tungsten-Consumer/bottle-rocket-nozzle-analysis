@@ -80,3 +80,11 @@ doing this also gives me a reusable framework for the actual bottle rocket, and 
 
 oh yeah and use 'cd \~/openfoam-cases/sphere/sphere-sim' on ubuntu to get right back to the proper directory
 
+
+
+
+
+**2026-11-14 (Day 4)**
+
+i went to the uoft openhouse and i have learned many insights (shoutout to all the people i talked to). how I can simulate a bottle rocket's thrust is by creating a boxmesh of the interior of the bottle rocket with the nozzle included, either having it flow outward into an outlet at the edge of the thrust. The inlet flow velocity will be determined by the pressure inside of the bottle rocket pushing out the water, and i need to the calculate the thrust force. i can also then run multiple separate simulations for each dt, or change the inlet velocity based off a set of data representing the change of fluid inlet velocity from the changing internal pressure (as the pressure lowers as more water gets pushed out). for the actual data collection, i could switch to onshape or Autodesk fusion for cad modelling, and also use openrocket to model the bottle rocket's trajectory. then for the measurement hardware, i can create some custom pcb chip (printed circuit board) creted on kiCAD to attach an IMU (inertial measurement unit), a barometer and a magnetometer to get acceleration, height and orientation to then model the actual trajectory to compare to the software simulations. these components need to be surface-mount-devices on the printed chip so i can make it super small and compact, with a way to store the measurements on a microsd for onsite recovery. i also need to make several copies in the case of breakage, and i also need to have several copies of the components for multiple iterations in the case of failure. i can get these components on digikey or mouser electronics. i can get a custom pcb at rlx solutions. i also need to consolidate ode knowledge, and potentially tackle pdes during this project to gain a better understanding and intuition on the results i am gathering. 
+
