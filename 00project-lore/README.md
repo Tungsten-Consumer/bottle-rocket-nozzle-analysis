@@ -98,5 +98,5 @@ sorry for the week long hiatus, i was managing school work and a delayed sat tes
 
 
 
-i have downloaded git for windows and im getting git lfs to store some showcase videos, so the repository doesn't become ridiculously large. i gotta learn how to use this too. first i gotta open git bash with the repository file, then install git lfs, then generate an attributes folder, commit, then commit the video.
+i have downloaded git for windows and im getting git lfs to store some showcase videos, so the repository doesn't become ridiculously large. i gotta learn how to use this too. first i gotta open git bash with the repository file, then install git lfs, then generate an attributes folder, commit, then commit the video. i created the video using paraview and the parafoam command. now i can actually start working on actually getting the simulation running, and i can get started on the actual project instead of this testrun. I think what ill do is make a certain amount of nozzles, only changing the final width of the mouth of the nozzle, with half - 0.5 being smaller than the mouth of the bottle, half - 0.5 being larger than the mouth of the bottle (opening up), and one being the exact width of the bottle. I will also try to make each nozzle the exact same weight, to be a control variable. 
 
